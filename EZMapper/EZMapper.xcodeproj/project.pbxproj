@@ -16,6 +16,8 @@
 		14C1DF75184C331B0011913B /* libEZMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1DF5D184C331B0011913B /* libEZMapper.a */; };
 		14C1DF7B184C331B0011913B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14C1DF79184C331B0011913B /* InfoPlist.strings */; };
 		14C1DF7D184C331B0011913B /* EZMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C1DF7C184C331B0011913B /* EZMapperTests.m */; };
+		14C1DF87184C3A8F0011913B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1DF86184C3A8F0011913B /* libsqlite3.dylib */; };
+		14C1DF88184C3A980011913B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C1DF86184C3A8F0011913B /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		14C1DF78184C331B0011913B /* EZMapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZMapperTests-Info.plist"; sourceTree = "<group>"; };
 		14C1DF7A184C331B0011913B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14C1DF7C184C331B0011913B /* EZMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZMapperTests.m; sourceTree = "<group>"; };
+		14C1DF86184C3A8F0011913B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C1DF87184C3A8F0011913B /* libsqlite3.dylib in Frameworks */,
 				14C1DF61184C331B0011913B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C1DF88184C3A980011913B /* libsqlite3.dylib in Frameworks */,
 				14C1DF6F184C331B0011913B /* XCTest.framework in Frameworks */,
 				14C1DF72184C331B0011913B /* UIKit.framework in Frameworks */,
 				14C1DF70184C331B0011913B /* Foundation.framework in Frameworks */,
@@ -100,6 +105,7 @@
 		14C1DF5F184C331B0011913B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14C1DF86184C3A8F0011913B /* libsqlite3.dylib */,
 				14C1DF60184C331B0011913B /* Foundation.framework */,
 				14C1DF6E184C331B0011913B /* XCTest.framework */,
 				14C1DF71184C331B0011913B /* UIKit.framework */,
