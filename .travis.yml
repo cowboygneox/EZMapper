@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: EZMapper/EZMapper.xcodeproj
 xcode_scheme: EZMapper 
+xcode_sdk: iphonesimulator
